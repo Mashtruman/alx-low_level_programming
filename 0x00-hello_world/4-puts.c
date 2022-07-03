@@ -3,7 +3,7 @@
 	/**
 	 * main -entry point
 	 *
-	 * Description:Prints Programming is like building a multilingual puzzle
+	 * Description:Prints content between quotations
 	 *
 	 * Return (always zero)
 	 */
