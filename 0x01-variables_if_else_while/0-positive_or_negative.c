@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdtime.h>
+#include <time.h>
 #include <stdlib.h>
 /**
  * main - entry point
