@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - entry point- assigns a random number to int 
+ * main - entry point- assigns a random number to int
  * every time it executes and prints it
  *
- * Return - Always return (0)
+ * Return - Always return 0 (success)
  *
  */
 int main(void)
