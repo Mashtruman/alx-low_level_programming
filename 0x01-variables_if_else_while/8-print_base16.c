@@ -8,7 +8,7 @@ int main(void)
 {
 unsigned char a = '0';
 int i;
-for (i = 0; i <10; i++;)
+for (i = 0; i <10; i++)
 {
 putchar(a);
 a++;
@@ -19,5 +19,5 @@ for (i = 0; i <6; i++)
 putchar('0' + a);
 a++;
 }
-return (0)
+return (0);
 }
