@@ -4,7 +4,7 @@
  *
  * Return: always return 0
  */
-in main(void)
+int main(void)
 {
 int a = 0;
 for (; a < 10; a++)
