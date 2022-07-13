@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * cap_string - capitalizes all words in a string
@@ -27,6 +27,7 @@ char *cap_string(char *s)
 				}
 			}
 		}
-		return (s);
+		i++;
 	}
+	return (s);
 }
