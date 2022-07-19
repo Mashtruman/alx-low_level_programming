@@ -3,7 +3,7 @@
 /**
  * _strspn - search a string for a set of bytes
  * @s: source string
- * @accept: accepted string
+ * @accept: accepted strin
  *
  * Return: number of bytes in the init segment
  */
@@ -26,7 +26,7 @@ unsigned int _strspn(char *s, char *accept)
 			b++;
 		}
 
-		a++
+		a++;
 	}
 
 	return (t);
