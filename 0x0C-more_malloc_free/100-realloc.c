@@ -1,14 +1,14 @@
-#include "maoin.h"
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * _memcpy - copies memory
- * @dest: destination
- * @src: source
- * @n: size of memory to copy
+ * _memcpy - copies memor
+ *  @dest: destination
+ *  @src: source
+ *  @n: size of memory to copy
  *
- * Return: Returns memory copied
+ *  Return: Returns memory copied
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
@@ -50,6 +50,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		free(ptr);
 		return (0);
 	}
+
 	ptr2 = malloc(new_size);
 	if (ptr2 == 0)
 		return (0);
